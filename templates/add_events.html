@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавить событие</title>
+</head>
+<body>
+    <h1>Добавить событие</h1>
+    <form method="POST">
+        <label for="name">Название события:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="location">Место:</label>
+        <input type="text" id="location" name="location" required><br><br>
+        <label for="description">Описание:</label>
+        <textarea id="description" name="description" required></textarea><br><br>
+        <label for="organizer">Организатор:</label>
+        <input type="text" id="organizer" name="organizer" required><br><br>
+        <label for="contact_phone">Контактный телефон:</label>
+        <input type="tel" id="contact_phone" name="contact_phone" required><br><br>
+        <label for="status">Статус:</label>
+        <select id="status" name="status">
+            <option value="Планируется">Планируется</option>
+            <option value="Проходит">Проходит</option>
+            <option value="Завершено">Завершено</option>
+        </select><br><br>
+        <button type="submit">Добавить событие</button>
+    </form>
+</body>
+</html>
